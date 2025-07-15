@@ -102,6 +102,7 @@ def main(input_string: str):
     """
     ip_address = extract_ip_address(input_string)
     print(ip_address)
+    return ip_address
 
 
 if __name__ == "__main__":
